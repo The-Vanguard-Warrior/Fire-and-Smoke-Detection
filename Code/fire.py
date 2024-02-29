@@ -4,8 +4,8 @@ from ultralytics import YOLO
 import cvzone
 
 # Running real time from webcam
-cap = cv2.VideoCapture('fire2.mp4')
-model = YOLO('fire.pt')
+cap = cv2.VideoCapture(0)
+model = YOLO('./Code/fire.pt')
 
 # Reading the classes
 classnames = ['fire']

@@ -12,7 +12,7 @@ classnames = ['fire']
 
 while True:
     ret, frame = cap.read()
-    frame = cv2.resize(frame, (640, 480))
+    frame = cv2.resize(frame, (720, 500))
     result = model(frame, stream=True)
 
     for info in result:
@@ -29,5 +29,4 @@ while True:
                                    scale=1.5, thickness=2)
 
     cv2.imshow('frame', frame)
-    cv2.waitKey(1)
-    
+    cv2.waitKey(1) 

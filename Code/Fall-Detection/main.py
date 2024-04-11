@@ -3,7 +3,7 @@ import cvzone
 import math
 from ultralytics import YOLO
 
-cap = cv2.VideoCapture('fall.mp4')
+cap = cv2.VideoCapture('fll.mp4')
 
 model = YOLO('best.pt')
 
@@ -14,7 +14,7 @@ with open('classes.txt', 'r') as f:
 
 while True:
     ret, frame = cap.read()
-    frame = cv2.resize(frame, (980,740))
+    frame = cv2.resize(frame, (640,640))
 
     results = model(frame)
 
@@ -23,6 +23,7 @@ while True:
         for box in parameters:
             x1, y1, x2, y2 = box.xyxy[0]
             x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
+            
             confidence = box.conf[0]
             class_detect = box.cls[0]
             class_detect = int(class_detect)
@@ -36,7 +37,7 @@ while True:
             threshold  = height - width
 
             if conf > 80 and class_detect == 'person':
-                cvzone.cornerRect(frame, [x1, y1, width, height], l=30, rt=6)
+                cvzone.cornerRect(frame, [x1, y1, width, height], l=30, rt=10)
                 cvzone.putTextRect(frame, f'{class_detect}', [x1 + 8, y1 - 12], thickness=2, scale=2)
             
             if threshold < 0:

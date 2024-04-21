@@ -2,7 +2,7 @@ import numpy
 import cv2
 import matplotlib
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture('http://10.45.70.129:2109/video')
 
 while cap.isOpened(): 
     ret, frame = cap.read()

@@ -3,9 +3,9 @@ import cvzone
 import math
 from ultralytics import YOLO
 
-cap = cv2.VideoCapture('faclsll.mp4')
+cap = cv2.VideoCapture('Forward.mp4')
 
-model = YOLO('mr.pt')
+model = YOLO('yolov8s.pt')
 
 classnames = []
 with open('classes.txt', 'r') as f:

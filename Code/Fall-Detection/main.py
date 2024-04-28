@@ -5,12 +5,13 @@ from ultralytics import YOLO
 
 cap = cv2.VideoCapture('Forward.mp4')
 
-model = YOLO('yolov8s.pt')
+model = YOLO('best.pt')
 
-classnames = []
-with open('classes.txt', 'r') as f:
-    classnames = f.read().splitlines()
+# classnames = []
+# with open('classes.txt', 'r') as f:
+#     classnames = f.read().splitlines()
 
+classnames = ['person fall']
 
 while True:
     ret, frame = cap.read()

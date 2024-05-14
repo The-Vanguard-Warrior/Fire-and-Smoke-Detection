@@ -34,9 +34,9 @@ def send_email(image_path):
 
 
 cap = cv2.VideoCapture("video3.mp4")
-# cap.set(3, 1280)
-# cap.set(4, 720)
-model = YOLO(".\\YOLO-PretrainedModels\\yolov8m.pt")
+cap.set(3, 1280)
+cap.set(4, 720)
+model = YOLO("model_file/best.pt")
 classnames = ["person"]
 
 fall_detected=False

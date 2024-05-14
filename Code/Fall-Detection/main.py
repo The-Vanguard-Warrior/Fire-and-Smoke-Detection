@@ -3,9 +3,10 @@ import cvzone
 import math
 from ultralytics import YOLO
 
-cap = cv2.VideoCapture('Forward.mp4')
+cap = cv2.VideoCapture('backwards.mp4')
 
 model = YOLO('best.pt')
+
 
 # classnames = []
 # with open('classes.txt', 'r') as f:
@@ -32,7 +33,6 @@ while True:
             conf = math.ceil(confidence * 100)
 
 
-            # implement fall detection using the coordinates x1,y1,x2
             height = y2 - y1
             width = x2 - x1
             threshold  = height - width

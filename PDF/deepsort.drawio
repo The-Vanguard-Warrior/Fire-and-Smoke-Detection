@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2024-05-06T02:00:22.799Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="rLo6LayLY2L0QoyNwBlZ" version="24.2.1" type="github">
+  <diagram name="Page-1" id="kyBz7kRZppiHcCMwdevi">
+    <mxGraphModel dx="732" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-25" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;direction=south;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="546.38" y="160.63" width="180" height="138.75" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K0-qpXlTE7w_SZg45RBs-4" target="K0-qpXlTE7w_SZg45RBs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-5" value="Input Video Sequence" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K0-qpXlTE7w_SZg45RBs-6" target="K0-qpXlTE7w_SZg45RBs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-6" value="YOLOv8" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="267" y="200" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K0-qpXlTE7w_SZg45RBs-8" target="K0-qpXlTE7w_SZg45RBs-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K0-qpXlTE7w_SZg45RBs-8" target="K0-qpXlTE7w_SZg45RBs-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-8" value="Detection" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="367" y="200" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-15" value="Kalman Predict" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-17" value="Difference Detector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357" y="100" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-20" value="Mahalanobis distance" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="576.38" y="150" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-21" value="Deep Appearance Descriptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576.38" y="240" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-22" value="Deep SORT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="586.38" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-26" value="Deep Appearance Descriptor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="726.38" y="190" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-27" value="Object Detection" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#A85400;" vertex="1" parent="1">
+          <mxGeometry x="349.75" y="270" width="94.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-28" value="Association Metrics" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580.95" y="325" width="110.87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K0-qpXlTE7w_SZg45RBs-30" value="Multi-Object Tracking" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#59450C;" vertex="1" parent="1">
+          <mxGeometry x="575.47" y="351" width="121.82" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

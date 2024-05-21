@@ -4,11 +4,12 @@ from ultralytics import YOLO
 import cvzone
 
 
-cap = cv2.VideoCapture('videotest.mp4')
-model = YOLO('fire-smoke.pt')
+cap = cv2.VideoCapture(1)
+model = YOLO('Model/final_model.pt')
 
 # Reading the classes
-classnames = ['Liquid', 'Metal', 'Solid', 'fire', 'object', 'smoke', 'background']
+classnames = ['0', '1', '2', '3', '4', 'Liquid']
+
 
 while True:
     ret, frame = cap.read()

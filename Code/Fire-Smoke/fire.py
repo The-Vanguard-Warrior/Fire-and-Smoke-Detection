@@ -4,11 +4,14 @@ from ultralytics import YOLO
 import cvzone
 
 # Running real time from webcam
+# cap = cv2.VideoCapture('http://172.20.10.2:2109/video')
 cap = cv2.VideoCapture(1)
-model = YOLO('./Code/fire.pt')
+
+model = YOLO('Model/final_model.pt')
 
 # Reading the classes
-classnames = ['fire']
+classnames = ['0', '1', '2', '3', '4', 'Liquid']
+
 
 while True:
     ret, frame = cap.read()

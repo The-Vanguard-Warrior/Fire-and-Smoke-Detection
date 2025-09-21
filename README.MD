@@ -1,9 +1,9 @@
 |    ID    |          Name          |                    Role                     |
 | :------: | :--------------------: | :-----------------------------------------: |
-| 23560012 |   Nguyễn Võ Chí Dũng   | Project Manager - Software/Technical Leader |
-| 23560092 |     Nguyễn Việt An     |            Software Team Leader             |
-| 23560020 |    Huỳnh Tấn Khang     |                Software Team                |
-| 23560019 | Nguyễn Huỳnh Hoàng Kha |            Software - Technical             |
+| 1 |   Nguyễn Võ Chí Dũng   | Project Manager - Software/Technical Leader |
+| 2 |     Nguyễn Việt An     |            Software Team Leader             |
+| 3 |    Huỳnh Tấn Khang     |                Software Team                |
+| 4 | Nguyễn Huỳnh Hoàng Kha |            Software - Technical             |
 
 
 #With IOS/Android User:

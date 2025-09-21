@@ -13,9 +13,9 @@ from email.mime.text import MIMEText
 
 
 def send_email(image_path):
-    sender_email = 'jatayu.kavach@gmail.com'
-    sender_password = 'quwkviupmsbgfzfk'
-    receiver_email = 'denildubariya18@gmail.com'
+    sender_email = 'none@gmail.com'
+    sender_password = 'none'
+    receiver_email = 'none@gmail.com'
 
     msg = MIMEMultipart()
     msg['From'] = sender_email
